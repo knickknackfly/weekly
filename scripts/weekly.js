@@ -1,6 +1,6 @@
 const path = require('path')
 const fs = require('fs')
-const date = new Date('2020/04/27')
+const date = new Date()
 const readmeFilePath = path.resolve(__dirname, '../README.md')
 const { fsPromises } = require('./utils')
 
@@ -29,8 +29,6 @@ function geneWeekFile(fileMeta) {
 ## 阅读 ✨✨✨
 
 ## 阅读延伸 ✨
-
-## 工作中解决的问题记录 ✨
 `
     )
   }
